@@ -112,7 +112,7 @@ void BPN::constructor(unsigned *sizes, bool *biases, outFunction *functions, uns
 }
 
 void BPN::ConstructDefault(int thrs) {
-  unsigned sizes[] = {262, 128, 128, 128, 1};
+  unsigned sizes[] = {262, 262, 262, 262, 1};
   outFunction functions[] = {linear, sigmoid2, sigmoid2, sigmoid2, sigmoid2};
   bool biases[] = {false, true, true, true};
 
